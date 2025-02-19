@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Footer() {
+function Navbar() {
   return (
     <div>
-      <h1>footer</h1>
+      <h1>navbar</h1>
     </div>
   )
 }
 
-export default Footer
+export default Navbar
