@@ -9,9 +9,9 @@ import Singup from './landing_page/signup/Singup'
 import SupportPage from './landing_page/support/SupportPage'
 import ProductPage from './landing_page/products/ProductPage'
 import AboutPage from './landing_page/about/AboutPage'
-import Pricing from './landing_page/home/Pricing'
 import HomePage from './landing_page/home/HomePage'
 import NotFoundpage from './landing_page/NotFoundpage'
+import PricingPage from './landing_page/pricing/PricingPage'
 
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
     },
     {
       path: "/pricing",
-      element: <><Navbar /><Pricing /></>
+      element: <><Navbar /><PricingPage /></>
     },
     {
       path: "/about",

@@ -5,9 +5,8 @@ import Brokerage from './Brokerage'
 function PricingPage() {
     return (
         <div>
-            {/* <Hero />
-            <Brokerage /> */}
-            <h2>pricing page</h2>
+            <Hero/>
+            <Brokerage/>
         </div>
     )
 }
