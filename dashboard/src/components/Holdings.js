@@ -61,7 +61,7 @@ const Holdings = () => {
             <th>Day chg.</th>
           </tr>
 
-          {allHoldings.map((stock, index) => {
+          {allHoldings.map((stock, index) => { 
             const curValue = stock.price * stock.qty;
             const isProfit = curValue - stock.avg * stock.qty >= 0.0;
             const profClass = isProfit ? "profit" : "loss";
